@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PDF RAG App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>Ask Questions from any PDF</h2>
+
+    <input type="file" id="pdf" accept=".pdf" />
+
+    <input
+      type="text"
+      id="question"
+      placeholder="Ask something about the PDF..."
+    />
+
+    <button type="button" onclick="ask()">Ask</button>
+
+    <p id="status"></p>
+    <pre id="answer"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
