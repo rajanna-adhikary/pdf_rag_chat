@@ -126,7 +126,7 @@ Open `frontend/index.html` in your browser.
 👤 Author
 
 Rajanna Adhikary
-BE – Computer Science
+BE – Information Science
 Batch of 2027
 
  ⭐ If you find this project useful, feel free to star the repository.
