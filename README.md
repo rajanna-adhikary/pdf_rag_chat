@@ -25,7 +25,7 @@ The application allows users to upload PDF documents and ask natural language qu
 
 **Backend**
 - Python
-- Flask
+- FastApi
 - Text processing & retrieval logic
 - Modular RAG pipeline (retrieval + response generation)
 
@@ -53,7 +53,7 @@ This project focuses on **system behavior, data flow, and failure handling**, ra
 pdf_rag_web/
 │
 ├── backend/
-│   ├── api.py              # Flask API endpoints
+│   ├── api.py              # Fast API endpoints
 │   ├── rag_engine.py       # Core RAG logic
 │   └── requirements.txt
 │
@@ -82,7 +82,7 @@ pip install -r backend/requirements.txt
 
 ### 3️⃣ Start the backend server
 ```bash
-python backend/api.py
+uvicorn backend.api:app --reload
 ```
 
 ### 4️⃣ Open the frontend
