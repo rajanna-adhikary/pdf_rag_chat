@@ -1,5 +1,10 @@
 # PDF RAG Chat Application
 
+<div align="center">
+  <img src="./image.png" alt="PDF RAG Chat Application" width="700">
+</div>
+
+
 A full-stack **PDF-based Question Answering system** built using a **Retrieval-Augmented Generation (RAG)** approach.  
 The application allows users to upload PDF documents and ask natural language questions, retrieving accurate answers grounded in the document content.
 
